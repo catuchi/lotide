@@ -11,6 +11,7 @@ const takeUntil = function(array, callback) {
       return subArray;
     }
   }
+  return subArray;
   
 };
 
