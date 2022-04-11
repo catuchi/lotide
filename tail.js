@@ -2,8 +2,16 @@
 // every element except from the head (first element) of an array
 
 const tail = function(arr) {
-  return arr.slice(1);
+  // let myArray = arr;
+  if (arr.length === 0 || arr.length === 1) {
+    return [];
+  }
+  if (arr.length === 1){
+    return myArray;
+  }
+  arr.shift();
+  console.log(arr);
+  return arr;
 };
-
 
 module.exports = tail;
