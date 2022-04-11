@@ -10,14 +10,18 @@ const findKey = function(object, callback) {
   // this function should scan object and return the first key for when the callback returns a truthy value
   for (const objectKey in object) {
     // console.log(objectKey);
-    const value = callback(object[objectKey]);
+    // const value = callback(object[objectKey]);
     // console.log(value);
-    if (value === true) {
+    if (callback(object[objectKey])) {
       return objectKey;
-      // console.log(objectKey);
     }
+
+  //   if (value === true) {
+  //     return objectKey;
+  //     // console.log(objectKey);
+  //   }
   }
-  return undefined;
+  // return undefined;
 };
 
 assertEqual(findKey({

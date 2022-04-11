@@ -23,9 +23,10 @@ const countLetters = function(sentence) /* string */ {
   }
   // console.log(countLetters);
   return countOfLetters;
-}
+};
 
 const testSentence = "I am the best programmer in Ottawa";
 
 // countLetters(testSentence);
 console.log(countLetters(testSentence));
+assertEqual();
