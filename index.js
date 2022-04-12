@@ -16,20 +16,20 @@ const without = require('./without');
 const tail = require('./tail');
 
 module.exports = {
-  head: head,
-  middle: middle,
-  tail: tail,
-  without: without,
-  takeUntil: takeUntil,
-  map: map,
-  letterPositions: letterPositions,
-  findKeyByValue: findKeyByValue,
-  findKey: findKey,
-  eqObjects: eqObjects,
-  eqArrays: eqArrays,
-  countOnly: countOnly,
-  countLetters: countLetters,
-  assertObjectsEqual: assertObjectsEqual,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual
+  head,
+  middle,
+  tail,
+  without,
+  takeUntil,
+  map,
+  letterPositions,
+  findKeyByValue,
+  findKey,
+  eqObjects,
+  eqArrays,
+  countOnly,
+  countLetters,
+  assertObjectsEqual,
+  assertEqual,
+  assertArraysEqual
 }
